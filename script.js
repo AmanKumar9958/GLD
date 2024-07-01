@@ -86,3 +86,12 @@ function hideMenu(){
     const sidebar = document.querySelector('.sidebar');
     sidebar.style.display = 'none';
 }
+document.addEventListener('click', function(event) {
+    const sidebar = document.querySelector('.sidebar');
+    const clickInsideSidebar = sidebar.contains(event.target);
+    const clickMenuButton = event.target.matches('.fa-bars');
+
+    if (!clickInsideSidebar && !clickMenuButton) {
+        hideMenu();
+    }
+});
