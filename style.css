@@ -660,3 +660,24 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+
+                        /* Courses page */
+.courses-card{
+    width: 100%;
+    margin-top: 2%;
+}
+.courses-card-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.courses-card-list-1, .courses-card-list-2{
+    display: flex;
+}
+.courses-card-list-items{
+    border: 2px solid black;
+    width: 100%;
+}
+
