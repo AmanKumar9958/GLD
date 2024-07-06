@@ -674,6 +674,7 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     width: 100%;
     flex-direction: column;
     gap: 5vh;
+    min-height: 100vh;
 }
 .courses-list-container-1 ,.courses-list-container-2{
     display: flex;
@@ -688,19 +689,23 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     background-color: #93abcc3b;
     border-radius: 20px;
     transition: all 300ms;
+    position: relative;
+    overflow: hidden;
 }
 .courses-list-items a{
     text-decoration: none;
 }
 .courses-list-items-body{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    gap: 4vh;
+    justify-content: center;
+    gap: 8vh;
+    height: 100%;
 }
 .courses-list-items-body img{
     margin-top: 2vh;
+    z-index: 9999;
 }
 .courses-list-items-body h2{
     font-size: 1.3em;
@@ -710,4 +715,18 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     background-color: #0077ff;
     color: white;
     padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.half-circle {
+    width: 45%;
+    height: 108%;
+    /* background-color: #82ace762; */
+    background-color: #ffffff73;
+    border-radius: 0% 100% 100% 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

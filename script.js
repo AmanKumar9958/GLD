@@ -95,3 +95,23 @@ document.addEventListener('click', function(event) {
         hideMenu();
     }
 });
+
+
+
+
+// active navbar buttons
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the current URL path
+    const path = window.location.pathname;
+    // Extract the page name (e.g., home.html, about.html)
+    const page = path.split("/").pop();
+    
+    // Get the corresponding menu item and add the 'active' class
+    if (page === "index.html") {
+        document.getElementById("home").classList.add("active");
+    } else if (page === "courses.html") {
+        document.getElementById("course").classList.add("active");
+    } else if (page === "contact.html") {
+        document.getElementById("contact").classList.add("active");
+    }
+});

@@ -6,6 +6,7 @@
     <title>GLD- Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="active.css">
     <link rel="shortcut icon" href="images/Logo_GLD.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,17 +22,17 @@
                         <div class="right">
                             <ul class="nav-list">
                                 <li onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></li>
-                                <li class="nav-list-links"><a class="list-items" href="index.html">Home</a></li>
-                                <li class="nav-list-links"><a class="list-items services" href="courses.html">Courses</a>
+                                <li id="home" class="nav-list-links"><a class="list-items" href="index.html">Home</a></li>
+                                <li id="course" class="nav-list-links"><a class="list-items services" href="courses.html">Courses</a>
                                     <ul class="services-list">
-                                        <li>English</li>
-                                        <li>Computer</li>
-                                        <li>Competitive Classes</li>
-                                        <li>10th, 11th & 12th (Arts & PCB)</li>
+                                        <li><a style="text-decoration: none; color: white;" href="courses.html">English</a></li>
+                                        <li><a style="text-decoration: none; color: white;" href="courses.html">Computer</a></li>
+                                        <li><a style="text-decoration: none; color: white;" href="courses.html">Competitive Classes</a></li>
+                                        <li><a style="text-decoration: none; color: white;" href="courses.html">10th, 11th & 12th (Arts & PCB)</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-list-links"><a class="list-items" href="contact.html">Contact Us</a></li>
-                                <li class="nav-list-links"><a class="list-items" href="index.html#about">About Us</a></li>
+                                <li id="contact" class="nav-list-links"><a class="list-items" href="contact.html">Contact Us</a></li>
+                                <li id="about" class="nav-list-links"><a class="list-items" href="index.html#about">About Us</a></li>
                                 <li class="nav-list-links-enq"><button id="enquiry-btn" onclick="enquiry()">Enquiry</button></li>
                             </ul>
                         </div>
@@ -47,8 +48,8 @@
                         </div>
                         <div class="right">
                             <ul class="nav-list">
-                                <li class="nav-list-links hideOnMobile"><a class="list-items" href="index.html">Home</a></li>
-                                <li class="nav-list-links hideOnMobile"><a class="list-items services" href="courses.html">Courses</a>
+                                <li id="home" class="nav-list-links hideOnMobile"><a class="list-items" href="index.html">Home</a></li>
+                                <li id="course" class="nav-list-links hideOnMobile"><a class="list-items services" href="courses.html">Courses</a>
                                     <ul class="services-list">
                                         <li><a style="color: white;" href="courses.html">English</a></li>
                                         <li><a style="color: white;" href="courses.html">Computer</a></li>
@@ -56,9 +57,10 @@
                                         <li><a style="color: white;" href="courses.html">10th, 11th & 12th (Arts & PCB)</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-list-links hideOnMobile"><a class="list-items" href="contact.html">Contact Us</a></li>
-                                <li class="nav-list-links hideOnMobile"><a class="list-items" href="index.html#about">About Us</a></li>
-                                <li class="nav-list-links-enq hideOnMobile"><button id="enquiry-btn" onclick="enquiry()">Enquiry</button></li>
+                                <li id="contact" class="nav-list-links hideOnMobile"><a class="list-items" href="contact.html">Contact Us</a></li>
+                                <li id="about" class="nav-list-links hideOnMobile"><a class="list-items" href="index.html#about">About Us</a></li>
+                                <li 
+                                /.class="nav-list-links-enq hideOnMobile"><button id="enquiry-btn" onclick="enquiry()">Enquiry</button></li=>
                                 <li onclick="showMenu()"><i class="fa-solid fa-bars"></i></li>
                             </ul>
                         </div>
