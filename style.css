@@ -684,17 +684,30 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 .courses-list-items{
     height: 37vh;
     width: 30vw;
-    border: 2px solid black;
-    background-color: green;
+    border: 1px solid black;
+    background-color: #93abcc3b;
     border-radius: 20px;
-    text-align: center;
-    color: white;
     transition: all 300ms;
 }
 .courses-list-items a{
     text-decoration: none;
 }
-.courses-list-items:hover{
-    scale: 1.08;
-    filter:drop-shadow(15px 15px 25px gray);
+.courses-list-items-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+.courses-list-items-body img{
+    margin-top: 2vh;
+}
+.courses-list-items-body h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #0077ff;
+    color: white;
+    padding: 5px 10px;
 }
