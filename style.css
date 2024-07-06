@@ -730,3 +730,78 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     top: 0;
     left: 0;
 }
+
+                        /* English Page */
+.english{
+    width: 100%;
+    height: 100%;
+}
+.english-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+.english-body h3{
+    text-align: center;
+    margin-top: 1.8vh;
+}
+.english-levels{
+    width: 800px;
+    height: 500px;
+}
+.english-levels-img{
+    height: 100%;
+    width: 100%;
+}
+.english-levels-img img{
+    border-radius: 25px;
+}
+.english-levels-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2vw;
+    margin-bottom: 2vh;
+}
+.level-card{
+    height: 430px;
+    width: 350px;
+    background-color: #90bbeba1;
+    border-radius: 25px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    cursor: default;
+}
+.level-card:hover{
+    scale: 1.1;
+    filter: drop-shadow(10px 10px 20px #084A7C);
+}
+.activity-wrapper{
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 2vh;
+}
+.activities{
+    min-height: 430px;
+    width: 350px;
+    background-color: #90bbeba1;
+    border-radius: 25px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    cursor: default;
+}
+.activities-2{
+    gap: 12vh;
+    padding: 5vh 0;
+}
+.activities:hover{
+    scale: 1.1;
+    filter: drop-shadow(10px 10px 20px #084A7C);
+}
