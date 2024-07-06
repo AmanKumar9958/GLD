@@ -767,7 +767,7 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     margin-bottom: 2vh;
 }
 .level-card{
-    height: 430px;
+    min-height: 430px;
     width: 350px;
     background-color: #90bbeba1;
     border-radius: 25px;
