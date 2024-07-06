@@ -152,6 +152,7 @@ header{
     width: max-content;
     text-align: center;
     z-index: 999;
+    border: 1px solid black;
 }
 .services-list li{
     padding: 5px 0;
@@ -664,20 +665,36 @@ footer{
 
 
                         /* Courses page */
-.courses-card{
+header nav .regular .right .nav-list .nav-list-links .services-list li a{
     width: 100%;
-    margin-top: 2%;
 }
-.courses-card-list{
+.courses-list{
     display: flex;
+    /* background-color: yellow; */
+    width: 100%;
     flex-direction: column;
-    width: 100%;
+    gap: 5vh;
 }
-.courses-card-list-1, .courses-card-list-2{
+.courses-list-container-1 ,.courses-list-container-2{
     display: flex;
+    justify-content: center;
+    gap: 10vh;
+    margin-top: 2vh;
 }
-.courses-card-list-items{
+.courses-list-items{
+    height: 37vh;
+    width: 30vw;
     border: 2px solid black;
-    width: 100%;
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    transition: all 300ms;
 }
-
+.courses-list-items a{
+    text-decoration: none;
+}
+.courses-list-items:hover{
+    scale: 1.08;
+    filter:drop-shadow(15px 15px 25px gray);
+}
