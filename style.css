@@ -825,3 +825,54 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     height: 100%;
     width: 100%;
 }
+.computer-courses-about{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 0 3vw;
+    padding-bottom: 5vh;
+}
+.computer-about{
+    min-height: 40vh;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#first-word{
+    position: relative;
+}
+#first-word::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 6px;
+    width: 60%;
+    left: 0;
+    background-color: #0A58CA;
+    border-radius: 10px;
+}
+.job{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    gap: 5vw;
+}
+.job-left{
+    width: 50%;
+}
+.job-left img{
+    width: 100%;
+    border-radius: 25px;
+}
+.multimedia-about{
+    /* background-color: #C9DAF2; */
+    background-color: #c9daf283;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* background-image: url(images/GRAPHIC\ DESIGN\ banners.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
