@@ -280,6 +280,17 @@ header{
     border-bottom-right-radius: 20px;
     border-top: none;
 }
+.courses-card-3{
+    display: flex;
+    gap: 1.3em;
+    width: fit-content;
+    padding: 1%;
+    margin: auto;
+    border: 1px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+}
 .mobile-view-card-1{
     display: flex;
     gap: 5%;
@@ -293,6 +304,10 @@ header{
     gap: 5%;
 }
 .mobile-view-card-4{
+    display: flex;
+    gap: 5%;
+}
+.mobile-view-card-5{
     display: flex;
     gap: 5%;
 }
@@ -804,4 +819,9 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 .activities:hover{
     scale: 1.1;
     filter: drop-shadow(10px 10px 20px #084A7C);
+}
+                        /* Computer page content */
+.computer{
+    height: 100%;
+    width: 100%;
 }

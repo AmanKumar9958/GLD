@@ -1,7 +1,4 @@
 @media (max-width: 803px) {
-    .main{
-        /* overflow-x: hidden; */
-    }
     nav{
         padding: 2% -2%;
     }
@@ -82,6 +79,11 @@
         flex-direction: column;
         gap: 15px;
     }
+    .mobile-view-card-5{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
     .courses-card-1{
         padding: 2%;
         display: flex;
@@ -90,6 +92,13 @@
         transition: all 300ms;
     }
     .courses-card-2{
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        transition: all 300ms;
+    }
+    .courses-card-3{
         padding: 2%;
         display: flex;
         flex-direction: column;
