@@ -44,7 +44,7 @@ function call(){
 }
 
 
-// move to top butotn
+// move to top button
 let btn = document.getElementById('scrollToTopBtn');
 window.onscroll = function(){
     scrollFunction();
@@ -60,6 +60,18 @@ function scrollFunction(){
 btn.addEventListener('click', function(){
     window.scrollTo({top:0, behavior: 'smooth'});
 });
+
+
+
+// document.getElementById('btn-primary').addEventListener('click', function(){
+//     const about = document.getElementById('computerAbout');
+//     if(about.style.display === 'none'){
+//         about.style.display === 'block'
+//     }
+//     else{
+//         about.style.display === 'none';
+//     }
+// });
 
 
 function placeholderChange(){
@@ -115,3 +127,5 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("contact").classList.add("active");
     }
 });
+
+

@@ -252,4 +252,7 @@
     #contact-para-1{
         padding-right: 5%;
     }
+    .chat{
+        z-index: 999;
+    }
 }

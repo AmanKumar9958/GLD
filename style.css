@@ -236,6 +236,7 @@ header{
     filter: drop-shadow(10px 10px 10px gray);
     transition: all 300ms;
     cursor: pointer;
+    z-index: 999;
 }
 .chat:hover{
     scale: 1.1;
@@ -856,6 +857,7 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 .job{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-bottom: 2vh;
     padding-left: 4vw;
     gap: 5vw;
@@ -884,4 +886,7 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 }
 .full-about{
     background-color: #89b0e6;
+}
+.computer-about{
+    background-color: #c0d5f17c;
 }
