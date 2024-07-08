@@ -848,7 +848,7 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     position: absolute;
     bottom: -5px;
     height: 6px;
-    width: 60%;
+    width: 70%;
     left: 0;
     background-color: #0A58CA;
     border-radius: 10px;
@@ -857,9 +857,13 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     display: flex;
     justify-content: center;
     padding-bottom: 2vh;
+    padding-left: 4vw;
     gap: 5vw;
 }
 .job-left{
+    width: 50%;
+}
+.job-right{
     width: 50%;
 }
 .job-left img{
@@ -871,8 +875,13 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     background-color: #c9daf283;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    /* background-image: url(images/GRAPHIC\ DESIGN\ banners.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+}
+.adca-about{
+    background-color: #cbddf59d;
+}
+.digital-about{
+    background-color: #c0d5f17c;
+}
+.full-about{
+    background-color: #89b0e6;
 }
