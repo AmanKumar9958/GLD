@@ -255,4 +255,68 @@
     .chat{
         z-index: 999;
     }
+    .courses-list{
+        padding-bottom: 5vw;
+    }
+    .courses-list-container-1, .courses-list-container-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .courses-list-items{
+        width: 95vw;
+    }
+    .course-heading{
+        font-size: 2.5em;
+        padding: 0 1vw;
+    }
+    .english-levels-card{
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+        justify-content: center;
+        padding: 0 35vw;
+    }
+    .activity-wrapper{
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .computer-courses-about .title h2{
+        color: #003366;
+    }
+    .job{
+        flex-direction: column;
+    }
+    .job-left{
+        width: 100%;
+    }
+    .job-right{
+        width: 100%;
+    }
+    .job-right p{
+        line-height: 2;
+    }
+    .english{
+        overflow: hidden;
+        padding-bottom: 5vh;
+    }
+    .english-levels {
+        width: 100%;
+        height: auto;
+    }
+    .english-levels-img {
+        padding: 0 4vw;
+        width: 100%;
+        height: auto;
+    }
+    .english-levels-img img {
+        width: 100%;
+        height: auto;
+    }
+    #presen{
+        width: 300px;
+    }
+    #role{
+        width: 300px;
+    }
 }

@@ -772,6 +772,8 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 }
 .english-levels-img img{
     border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
 .english-levels-card{
     display: flex;
@@ -868,6 +870,9 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 .job-right{
     width: 50%;
 }
+.job-right p{
+    line-height: 3;
+}
 .job-left img{
     width: 100%;
     border-radius: 25px;
@@ -889,4 +894,14 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 }
 .computer-about{
     background-color: #c0d5f17c;
+}
+.title h2{
+    color: #003366;
+    font-weight: bold;
+}
+#presen{
+    width: 350px;
+}
+#role{
+    width: 370px;
 }
