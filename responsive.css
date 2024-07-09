@@ -319,4 +319,20 @@
     #role{
         width: 300px;
     }
+    .academics-card{
+        gap: 8vh;
+    }
+    .book{
+        color: white;
+    }
+    .cover{
+        color: white;
+        font-weight: bold;
+    }
+    .book p{
+        padding: 0 3vw;
+        color: black;
+        text-align: center;
+        padding-left: 5vw;
+    }
 }

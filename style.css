@@ -905,3 +905,94 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
 #role{
     width: 370px;
 }
+                        /* Academics Page */
+.academics{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5vh;
+}
+.academics-card{
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0vh;
+}
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    /* background-color: whitesmoke; */
+    background-color: #C9DAF2;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+}
+.cover {
+    font-weight: bold;
+    color: black;
+    top: 0;
+    position: absolute;
+    /* background-color: lightgray; */
+    background-color: #548fe9;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+}
+.book p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+                        /* Competitive Page */
+.competitive{
+    height: 100%;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.ac-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
