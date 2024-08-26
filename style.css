@@ -25,7 +25,7 @@ li{
 }
 .page2{
     /* min-height: 100vh; */
-    height: 70vh;
+    min-height: 70vh;
     width: 100%;
     background-color: #124B9C;
     color: white;
@@ -1055,4 +1055,10 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+#visitors{
+    border: 2px solid #003366;
+    display: inline-block;
+    margin-left: 50%;
+    padding: 0.5rem;
 }

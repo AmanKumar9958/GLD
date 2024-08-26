@@ -129,6 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+// popup box
 let popupBox = document.getElementById('popup');
 let closeIcon = document.getElementById('closeIcon')
 
@@ -145,3 +146,21 @@ document.addEventListener('DOMContentLoaded', function(){
         popupBox.style.display = 'none';
     }
 })
+
+// visitors counter
+function visitorsCount(){
+    let visitCount = localStorage.getItem('visitCount');
+    let firstCount = localStorage.getItem('firstVisit');
+
+    if(!visitCount){
+        visitCount = 0
+    }
+    // users first visit..
+    if(!firstCount){
+        visitCount++
+    }
+    localStorage.setItem('visitCount', visitCount);
+    localStorage.setItem('firstVisit', 'true');
+    document.getElementById('count').textContent = visitCount;
+}   
+visitorsCount()
