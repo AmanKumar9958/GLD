@@ -335,4 +335,9 @@
         text-align: center;
         padding-left: 5vw;
     }
+    #mainContentPopup{
+        width: 60vw;
+        height: 50vh;
+        border-radius: 3vw;
+    }
 }
