@@ -88,7 +88,7 @@ function placeholderChange(){
     }
 }
 
-
+// Navigation menu in mobile view
 function showMenu(){
     const sidebar = document.querySelector('.sidebar');
     sidebar.style.display = 'flex';
@@ -129,3 +129,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+let popupBox = document.getElementById('popup');
+let closeIcon = document.getElementById('closeIcon')
+
+document.addEventListener('DOMContentLoaded', function(){
+    popupBox.style.display = 'block';
+        
+    // close using Close Icon..
+    closeIcon.addEventListener('click', function(){
+        popupBox.style.display = 'none';
+    })
+
+    // close using Anywhere Click..
+    window.onclick = function(){
+        popupBox.style.display = 'none';
+    }
+})

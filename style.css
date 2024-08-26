@@ -996,3 +996,63 @@ header nav .regular .right .nav-list .nav-list-links .services-list li a{
     flex-direction: column;
     gap: 8vh;
 }
+#popup{
+    background-color: rgba(0, 128, 128, 0.5); /* Teal semi-transparent background */
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#mainContentPopup{
+    display: block;
+    z-index: 1;
+    width: 20vw;
+    height: 60vh;
+    background-color: #9FC1F1;
+    border-radius: 0.7vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fade 3s ease-in-out;
+    padding: 1vh 2vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+#closeIcon{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #124B9C;
+    border-radius: 50%;
+    padding: 0.09vw 0.3vw;
+    cursor: pointer;
+}
+#popupContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
